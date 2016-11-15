@@ -1,0 +1,238 @@
+Gif4J SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2004 Gif4J Software. 
+All rights reserved. 
+
+IMPORTANT-READ CAREFULLY:  By downloading, installing, or using the SOFTWARE, 
+you indicate your acceptance of the following Software License Agreement ("SLA"). 
+This is a legal agreement between you (the individual or corporation who 
+operates the SOFTWARE) and Gif4J Software.
+
+
+1. DEFINITIONS
+
+This license defines and uses the following terms:
+
+	1.1. SOFTWARE  -- Gif4J PRO binary (Java byte) code in electronic, printed 
+	or other form that can be distributed and/or used, accompanying documentation, 
+	graphical materials including diagrams, block-schemes, logos, graphic art, 
+	Gif4J PRO revisions, patches and updates delivered or downloaded 
+	by the customer in electronic, printed or other form, 
+	Gif4J PRO sample code in electronic or printed form, batch scripts and 
+	configuration files, used to use and/or distribute Gif4J PRO in parts or 
+	in whole.
+	1.2. LICENSEE -- a company or individual who is given the right to use 
+	and/or distribute the SOFTWARE according to this license.
+	1.3. LICENSER -- Gif4J Software in whole.
+	1.4. MIDDLEWARE -- software products which are developed by LICENSEE for use 
+	by third-parties (companies and individuals that are separate legal entities 
+	and not part of LICENSEE) for creation of third-party's software products and 
+	which are included as a part of third-party's software products. 
+	This includes, but is not limited by, Java class libraries, ActiveX objects, 
+	.NET assemblies, Delphi components, Dynamic-Link Libraries, Shared Objects etc.
+	1.5. END-USER APPLICATIONS -- software products that are not classified 
+	as MIDDLEWARE.
+
+
+2. GRANTING of LICENSES
+	
+	LICENSER grants LICENSEE one of the following licenses depending on 
+	LICENSEE's type of use of the SOFTWARE and the license fee paid. 
+	Except for the licenses marked as free hereafter, a license is not granted 
+	if LICENSEE cannot prove payment of the corresponding license fee 
+	as published by LICENSER at the time of purchase of such license.  
+	Implied licenses are negated.
+	The SOFTWARE is licensed, not sold.
+
+	
+	2.1. FREE EVALUATION LICENSE
+
+	LICENSER grants LICENSEE a free, nonexclusive, non-transferable license to use 
+	the Evaluation Version of the SOFTWARE during a free evaluation period, provided 
+	the terms of this agreement are met. The free evaluation period extends 
+	for 30 calendar days from the day of first use by LICENSEE. 
+	LICENSEE can use the SOFTWARE for purposes of testing and evaluation only. 
+	Before the end of the 30 day evaluation period, LICENSEE must either purchase 
+	a paid license to the SOFTWARE or remove the SOFTWARE from all the machines 
+	where LICENSEE installed it. 
+	In either case the Evaluation License is terminated. 
+
+	
+	2.2. DEVELOPMENT LICENSE
+
+	2.2.1. In the case of a Single Developer License, LICENSER grants LICENSEE
+	a limited, non-exclusive, non-transferable, non-assignable, non-sub-licensable
+	to download and install one copy of the SOFTWARE for use only for the purpose 
+	of development and only by one software developer.
+	The number of Single Developer Licenses acquired entitles the equivalent
+	number of licensee employees to develop SOFTWARE-based applications using
+	the SOFTWARE.
+	The total number of installed copies of The SOFTWARE used by LICENSEE may not 
+	exceed the number of Licensed Copies paid for by the LICENSEE. 
+	One Installed Copy is defined to be a group of computer files in electronic form 
+	used by single software developer on any number of computers.
+	
+	2.2.2. In the case of a Site Developer License, LICENSER grants LICENSEE
+	a limited, non-exclusive, non-transferable, non-assignable, non-sub-licensable
+	to download and install multiple copies of the SOFTWARE for use only by
+	developers within LICENSEE's business organisation at a single geographic site, 
+	for the purpose of development by those developers.
+	
+	2.2.3. Use of The SOFTWARE by LICENSEE's subcontractors requires a separate 
+	license given to those subcontractors.
+
+	
+	2.3. RUNTIME LICENSE
+
+	2.3.1. LICENSER grants LICENSEE a non-exclusive, non-sublicensable license to
+	run the SOFTWARE-based END-USER APPLICATIONS (that have been developed by 
+	the LICENSEE under a DEVELOPMENT LICENSE) on the respective number of 
+	Java Virtual machines (JVMs) - one license per one JVM.
+	These licenses are transferable to customers or other third parties, which means 
+	that if the customer or other third party acquires a certain number of licenses
+	to run the SOFTWARE-based END-USER APPLICATIONS from the LICENSEE, 
+	the respective number of runtime licenses are transferred to the customer.
+
+	2.3.2. LICENSEE must incorporate the following disclaimer in the documentation 
+	and/or other materials provided with any the SOFTWARE-based 
+	END-USER APPLICATIONS:
+	
+	THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+	INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+	FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANY PERSON
+	WHO HAS CONTRIBUTED TO OR IS THE OWNER OF ANY PART OF THIS SOFTWARE BE
+	LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+	CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+	SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+	INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+	CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+	IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+	OF SUCH DAMAGE.
+
+	2.3.3. In the case of a Runtime License Pack One Application Unlimited, 
+	LICENSER grants LICENSEE a worldwide, non-exclusive, non-transferable,
+	non-assignable, non-sub-licensable, fee-bearing license to reproduce exact
+	copies, distribute and sublicense use of the SOFTWARE, solely as incorporated 
+	in the APPLICATION, directly or indirectly through LICENSEE's normal
+	distribution channels to end users. 
+	LICENSEE shall not distribute or sublicense the SOFTWARE except as incorporated 
+	in the APPLICATION. SOFTWARE updates provided to LICENSEE under a LICENSER 
+	support plan shall be deemed SOFTWARE hereunder and may be re-distributed to 
+	end users as incorporated in the APPLICTION updates.
+	LICENSER reserves all rights not expressly and unambiguously granted herein.
+
+
+	2.4. MIDDLEWARE LICENSE
+
+	2.4.1. LICENSER grants LICENSEE a worldwide, a non-exclusive, 
+	non-sublicensable license to develop and royalty-free distribute 
+	the SOFTWARE, solely as incorporated in the MIDDLEWARE, developed by LICENSEE, 
+	directly or indirectly through LICENSEE's normal distribution channels 
+	during the purchased MIDDLEWARE LICENSE subscription period.
+	After the MIDDLEWARE LICENSE subscription expiring MIDDLEWARE LICENSE 
+	is terminated until purchasing a new MIDDLEWARE LICENSE subscription.
+
+	2.4.2. LICENSEE must incorporate the following disclaimer in the documentation 
+	and/or other materials provided with any the SOFTWARE-based MIDDLEWARE:
+	
+	THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES,
+	INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+	FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL ANY PERSON
+	WHO HAS CONTRIBUTED TO OR IS THE OWNER OF ANY PART OF THIS SOFTWARE BE
+	LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+	CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+	SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+	INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+	CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+	IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+	OF SUCH DAMAGE.
+
+3.  OTHER RESTRICTIONS
+
+	LICENSEES agree not to (I) modify, port, translate, reverse engineer,
+	disassemble, de-compile, derive source code, or create derivative works 
+	based on, nor permit any other party to derive or attempt to derive the source
+	code of the SOFTWARE by any means; (II) copy the SOFTWARE except as stated
+	above; (III) remove, or allow to be removed, any LICENSER or its Licensors
+	copyright or other proprietary rights notice from any Software; 
+	(IV) take any action that causes the SOFTWARE to be placed in the public domain;
+	(V) use the SOFTWARE to develop an application having the same primary
+	function as the SOFTWARE; (VI) sell, lease, rent, transfer or assign
+	the SOFTWARE to others or grant others the right to use it
+	except as stated above; (VII) market, distribute or sublicense copies
+	of the SOFTWARE to others except as stated above;
+	(VIII) use the SOFTWARE for third-party training,
+	commercial time-sharing, rental or service bureau purposes.  
+
+
+4.  TERMINATION
+	
+	4.1. The license becomes effective the day the LICENSEE agrees to its terms
+	and conditions.
+	4.2. The license terminates automatically if the LICENSEE fails to comply with 
+	the limitations described above.
+	4.3. The license can be terminated by LICENSEE at any time.
+	4.4. Upon termination of the license LICENSEE must destroy all copies of 
+	the SOFTWARE received under terms of this license and all it's components
+	on all systems and all types of media and in computer memory.
+
+
+5. WARRANTY and LIMITATION of LIABILITY
+	
+	5.1. The SOFTWARE is provided by LICENSER 'AS IS'.
+
+	5.2. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSER DISCLAIMS
+	ALL OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING,
+	BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+	FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, WITH REGARD TO THE
+	SOFTWARE, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES.
+	THE LICENSER DOES NOT WARRANT THAT THE SOFTWARE WILL BE ERROR
+	FREE OR WILL OPERATE WITHOUT INTERRUPTION. THE ENTIRE RISK ARISING OUT
+	OF THE USE OR PERFORMANCE OF THE SOFTWARE AND ACCOMPANYING WRITTEN
+	MATERIALS REMAINS WITH THE LICENSEE. THIS LIMITED WARRANTY GIVES THE
+	LICENSEE SPECIFIC LEGAL RIGHTS. THE LICENSEE MAY HAVE OTHERS, WHICH VARY
+	FROM STATE/JURISDICTION TO STATE/JURISDICTION.
+
+	5.3. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+	INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+	BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF 
+	USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+	AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+	OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+	THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+	5.4. Recognizing the importance of The SOFTWARE to The LICENSEE, 
+	the LICENSER will attempt to fix the errors discovered in the SOFTWARE
+	given that such errors are not caused by malfunctioning of the operating
+	environment, hardware and software errors of third-party components 
+	and by improper use or impossibility to use of the SOFTWARE.
+
+
+6. GENERAL PROVISIONS
+
+	6.1. If any part of this SLA is found void and unenforceable, 
+	it will not affect the validity of the balance of the license, 
+	which shall remain valid and enforceable according to its terms.
+	6.2. This SLA shall not prejudice the statutory rights of any 
+	party dealing as a consumer.
+	6.3. This SLA may only be modified by a writing signed by LICENSER.
+	6.4. Updates may be licensed to the LICENSEE by the LICENSER
+	with additional or different terms.
+	6.5. This is the entire agreement between the LICENSER and LICENSEE
+	relating to the SOFTWARE and it supersedes any prior representations,
+	discussions, undertakings, communications or advertising relating 
+	to the SOFTWARE.
+
+
+7. COPYRIGHT
+
+	The SOFTWARE (including any images, photographs and text incorporated into 
+	the SOFTWARE) is owned by LICENSER or its suppliers and  is protected by 
+	copyright law, international copyright treaties, as well as other proprietary 
+	notices. Therefore you must treat the SOFTWARE like any other copyrighted
+	material and not reproduce it except that you may either: (a) make one copy 
+	of the SOFTWARE solely for backup or archival purposes, or (b) transfer the 
+	SOFTWARE to a single hard disk provided you keep the original solely for 
+	backup or archival purposes.
+
+

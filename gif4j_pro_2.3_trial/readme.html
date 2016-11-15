@@ -1,0 +1,275 @@
+<html>
+<header>
+<title>Gif4J PRO :: Read Me</title>
+<link rel="stylesheet" href="doc/style.css" type="text/css">
+</header>
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0">
+  <table border="0" width="100%" cellspacing="5" cellpadding="0" >
+        <tr>
+        <td class="blue_large" align="center">
+        <a href="http://www.gif4j.com" target="_blank">
+        <img src="doc/images/gif4j_software_logotype.gif" border="0">
+        </a>
+        </td>
+        </tr>
+        <tr>
+        <td class="blue_large" align="center">ReadMe<br>
+        </tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;INTRODUCTION</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff" class="dark_gray">
+			     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#FFFFFF" cellpadding="5">
+                    <tr>
+					<td class="dark_gray">
+
+                    <p>The professional edition of the Gif4J Java GIF imaging library
+                offers the most comprehensive Java-based GIF image processing solution for imaging professionals.<br>
+                </p>
+                <p>Using the Gif4J PRO you can:
+                    <ul>
+                    <li class="wide"><strong class="blue_medium">Control all GIF animation aspects</strong>:
+                    The Gif4J PRO <b>completely supports GIF89a specification</b> and allows you to control all GIF animation aspects and parameters.</li>
+                    <li class="wide"><strong><span class="blue_medium">Load and decode GIF images</span> for the further processing with a single method call:</strong>
+                    The Gif4J PRO contains the powerful and fast <a href="doc/java-api-pro/com/gif4j/GifDecoder.html" target="_blank" class="gray">java GIF image decoder</a> to read GIF images from files and streams for the further processing.</li>
+                    <li class="wide"><span class="blue_medium">Encode and save images as GIFs</span>:
+                    Gif4J <a href="doc/java-api-pro/com/gif4j/GifEncoder.html" class="gray" target="_blank">java GIF image encoder</a> allows you to save images as non-animated GIFs and animations.
+                    It supports ImageIO API to write GIF files through standard ImageIO API (Java 1.4+) without calling Gif4J methods directly.
+                    </li>
+                    <li class="wide"><span class="blue_medium">Transform GIF images</span>:
+                    Using the Gif4J PRO <a class="gray" href="doc/java-api-pro/com/gif4j/GifTransformer.html" target="_blank">Java GIF Image Transformer</a> you can resize, scale, rotate and flip animated and non-animated GIF images.</li>
+                    <li class="wide"><span class="blue_medium">Watermark and stamp the whole GIF images</span> and
+                    <span class="blue_medium">separate GIF image frames</span>:
+                    The Gif4J PRO simplifies the process of creating and <strong>applying watermarks to both animated and non-animated GIF images</strong>.
+                    You can variate the transparency level and easily position a watermark - absolute and relative positioning are supported.
+                    </li>
+                    <li class="wide"><strong class="blue_medium">Quantize images to control image color depth</strong>:
+                    The Gif4J PRO contains the fastest, most intelligent and qualitative java color quantizer
+                    for reducing number of unique colors down to 256 or less
+                    (GIF format supports for any number of colors between 2 and 256).
+                    The Gif4J quantizer <strong>supports 8 quantizing modes</strong> and
+                    produces unbeatable results among the most commonly used Java-based qunatizers including Median-Cut, Octree and NeuQuant.<br>
+                    </li>
+                    <li class="wide"><span class="blue_medium">Extract, add and remove GIF image textual comments</span>:
+                    The Gif4J PRO allows you to extract, add and remove ASCII text comments within GIF images.</li>
+                    <li class="wide"><span class="blue_medium">Extract all GIF image format specific meta information</span> including GIF format version, logic GIF image size, number of frames, frames' sizes, frames' positions, color models, transparency and interlace support etc.</li>
+                    <li class="wide"><span class="blue_medium">Access and manipulate internal GIF image frames</span> in the random order to edit frame's animation aspects such as delay time and disposal method.</li>
+                    <li class="wide"><span class="blue_medium">Render texts</span>:
+                    The Gif4J PRO undertakes to render a text across the single or multiple lines with the specified decorate attributes such as fonts, background, foreground and outline paints, text centering etc.
+                    </li>
+                    </ul>
+                </p>
+                <p>The Gif4J PRO has also the next features and advantages:
+                <ul>
+                <li class="wide"><span class="blue_medium">Simplicity of use</span>:
+     the Gif4J PRO undertakes lots of analyzing, converting and preprocessing image operations.
+     For example, to encode any <i>BufferedImage</i> instance you need to write only one line of a code and it's not necessary to think
+     of instance's type, size, color model, transparency etc.</li>
+                <li class="wide">The Gif4J PRO is profiled to the <span class="blue_medium">extreme speed</span>:
+     all algorithms' implementations are carefully designed and coded for maximum performance;
+     the library is thread-safe; there is an embedded object pool system to optimize memory use and prevent often GC running.
+                </li>
+<li class="wide"><span class="blue_medium">Absolute and relative internal gif frame positioning</span>:
+     set the position of an immediate frame inside the general GIF image logical screen by providing absolute position or
+     layout constraint (for example, left-top, bottom-center etc.).
+                </li>
+                <li class="wide">
+                <span class="blue_medium">Resize strategies</span>:
+                the Gif4J PRO undertakes to control general image size (take into consideration
+                all internal frames' size and their positions) using one of the predefined resize strategies.
+                </li>
+                <li class="wide">
+                <span class="blue_medium">Morphing filters</span>:
+                <b>7 GIF image morphing filters</b> with more than <b>20 morphing options</b>
+                lets you create <b>amazing GIF animations, image tours and banners</b> without any additional coding.
+                </li>
+                <li class="wide"><span class="blue_medium">"Force global color table" feature</span>:
+     by default to provide better quality every GIF frame has own suite of unique colors
+     (so called "Local Color Table"). To optimize the final GIF file size
+     (every table takes up to 756 bytes) these tables can be unite to one global color table
+     using the embedded special edition of the Gif4J quantizer.
+                </li>
+                </ul>
+                </p>
+				</td>
+				</tr>
+				</table>
+		</td>
+				</tr>
+				</table>
+</td>
+</tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;TRIAL VERSION</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff">
+                        <table height="100%" width="100%" border="0" cellspacing="5" bgcolor="ffffff" cellpadding="0">
+					<tr>
+<td class="dark_gray" colspan="2">
+ The trial version is for your evaluation only. If you want to use the Gif4J PRO after a trial period, you have to purchase a registered copy.
+  Browse <a href="http://www.gif4j.com/purchase.htm#PRO">http://www.gif4j.com/purchase.htm</a> for detailed information about registration methods.<br><br>
+<span class="text_red">NOTE:</span><br>
+    The trial Gif4J PRO version has the next limitations:<br>
+    <p style="margin-left: 20px;margin-top: 10px;">
+    <ol type="1">
+    <li> Every gif image is marked with "gif4j eval" watermark.<br>
+    <li> <a href="doc/java-api-pro/com/gif4j/quantizer/Quantizer.html" target="_blank">Quantizer</a> and  <a href="doc/java-api-pro/com/gif4j/quantizer/ExactQuantizer.html" target="_blank">ExactQuantizer</a> support only <span class="code">MEMORY_LOW_OPTIMIZED</span> mode of operation
+    (see API <a  class="green" href="doc/java-api-pro/com/gif4j/quantizer/Quantizer.html" target="_blank">here</a>).
+    All others modes are ignored.<br>
+    <li> The trial version is not profiled to the speed and memory use.<br>
+    The embedded object pool system (to optimize memory use and prevent often GC running)
+    and other optimization oriented classes are removed.
+    As a result the number of classes in the trial version was reduced almost twice
+    that evidently demostrates how much attention has been paid to optimization.
+    Experience has shown that the <b>trial version is usually up to 10 times 
+	(and sometimes up to 100 times) slower</b> than the registered version.<br>
+    <span class="text_red">Note</span>: don't use the trial version for testing and benchmarking purposes!
+    <li> The <a class="green" target="_blank" href="doc/java-api-pro/com/gif4j/GifEncoder.html">GifEncoder</a> class
+    ignores the <b>forceGlobalColorTableUsage</b> option (see <a href="doc/tutorial.html">tutorial</a> for more info).
+    It can lead to the large gif file size if it contains a lot of internal frames (for example, after <b>MorphingFilter</b> use).
+    </ol>
+    </p>
+	<span class="text_red">Registration benefits:</span><br>
+     <p style="margin-left: 20px;margin-top: 10px;">
+    <ul>
+<li>Full version of Gif4J PRO without restrictions</li>
+<li>Free bugs fixing</li>
+<li>Free 6 months of technical support via e-mail</li>
+<li>Free 3 months of major and minor updates</li>
+</ul>
+    </p>
+</td>
+</tr>
+	</table>
+	</td>
+</tr>
+	</table>
+</td>
+</tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;REQUIREMENTS</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff">
+                        <table height="100%" width="100%" border="0" cellspacing="5" bgcolor="ffffff" cellpadding="0">
+					<tr>
+<td class="dark_gray" colspan="2">
+  
+     <p style="margin-left: 20px;margin-top: 10px;">
+    <ul>
+<li>Java supporting OS (like Windows 9x/ NT, Unix, Linux, MacOS ...) </li>
+<li>JDK 1.2 or later (ImageIO support - JDK 1.4 or later)</li>
+<li>RAM 32 MB</li>
+</ul>
+    </p>
+</td>
+</tr>
+	</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;FILES</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff">
+                        <table height="100%" width="100%" border="0" cellspacing="5" bgcolor="ffffff" cellpadding="0">
+					<tr>
+<td class="dark_gray" colspan="2">
+			<table align="left" width="60%" border="0" cellspacing="1" bgcolor="cccccc" cellpadding="1">
+<tr>
+<td bgcolor="white" align="center" class="dark_gray">lib\gif4j_pro_trial_2.3.jar</td>
+<td bgcolor="white" align="left" class="dark_gray">Gif4J PRO v 2.3 java archive file</td>
+</tr>
+<tr>
+<td bgcolor="white" align="center" class="dark_gray">gif4j_pro_license_agreement.txt</td>
+<td bgcolor="white" align="left" class="dark_gray"><a href="gif4j_pro_license_agreement.txt" target="_blank">Gif4J PRO License Agreement</a></td>
+</tr>
+<tr>
+<td bgcolor="white" align="center" class="dark_gray">doc\tutorial.html</td>
+<td bgcolor="white" align="left" class="dark_gray"><a href="doc\tutorial.html" target="_blank">Gif4J PRO Tutorial in Html Format</a></td>
+</tr>
+<tr>
+<td bgcolor="white" align="center" class="dark_gray">examples</td>
+<td bgcolor="white" align="left" class="dark_gray">Gif4J PRO Examples</td>
+</tr>
+</table>
+</td>
+</tr>
+	</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;INSTALL</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff">
+                        <table height="100%" width="100%" border="0" cellspacing="5" bgcolor="ffffff" cellpadding="0">
+					<tr>
+<td class="dark_gray" colspan="2">
+  
+     <p style="margin-left: 20px;margin-top: 10px;">
+ Import the <b>gif4j_pro_trial_2.3.jar</b> file into your development environment, or add the file to your CLASSPATH.
+    </p>
+</td>
+</tr>
+	</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+     <table height="100%" width="100%" border="0" cellspacing="1" bgcolor="#324697" cellpadding="0">
+                    <tr>
+                    <td align="left" class="white_medium" height="20"><a name="image"></a>&nbsp;CONTACT</td>
+                    </tr>
+                    <tr>
+                    <td align="left" bgcolor="ffffff">
+                        <table height="100%" width="100%" border="0" cellspacing="5" bgcolor="ffffff" cellpadding="0">
+					<tr>
+<td class="dark_gray" colspan="2">
+     <p style="margin-left: 20px;margin-top: 10px;">
+For comments about the web site, please send email to <a href="mailto:webmaster@gif4j.com">webmaster@gif4j.com</a><br><br>
+For technical questions and bug reports, please send email to <a href="mailto:support@gif4j.com">support@gif4j.com</a>.
+Please include additional information such as your platform environment (OS, JDK/JRE version, etc.) and
+steps to recreate the problem (examples source code, etc.)<br><br>
+For sales or licensing enquiries (OEM etc.), please send email to <a href="mailto:sales@gif4j.com">sales@gif4j.com</a><br><br>
+For all other enquiries, comments and questions, please send email to <a href="mailto:info@gif4j.com">info@gif4j.com</a><br><br>
+    </p>
+</td>
+</tr>
+	</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+		  <tr>
+        <td bgcolor="#324697"  class="white_medium" align="center">Gif4J PRO (Copyright &copy; 2004-2007 Gif4J Software)</td>
+        </tr>
+
+</table>
